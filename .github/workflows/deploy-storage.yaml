@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy-storage:
-    uses: ./BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml
+    uses: BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml@main
     with:
       templateFile: templates/storage.jsonc
       parametersFile: parameters/storage/dev.jsonc
