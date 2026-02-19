@@ -5,10 +5,10 @@ on:
 
 jobs:
   deploy-storage:
-    uses: praveenadmin/BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml@main
+    uses: BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml
     with:
       templateFile: templates/storage.json
-      parametersFile: parameters/Storage/dev.json
+      parametersFile: parameters/storage/dev.json
       resourceGroup: arm-lab-rg
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
