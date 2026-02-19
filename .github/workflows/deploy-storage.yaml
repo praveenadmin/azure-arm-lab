@@ -8,7 +8,7 @@ jobs:
     uses: praveenadmin/BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml@main
     with:
       templateFile: templates/storage.json
-      parametersFile: parameters/storage/dev.json
+      parametersFile: parameters/Storage/dev.json
       resourceGroup: arm-lab-rg
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
