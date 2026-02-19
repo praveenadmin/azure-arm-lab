@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "storageAccountName": {
-      "value": "mystoragedevpraveen01"
+      "value": "mystoragepraveendev01"
     },
     "location": {
       "value": "eastus"
