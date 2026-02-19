@@ -7,8 +7,8 @@ jobs:
   deploy-storage:
     uses: BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml
     with:
-      templateFile: templates/storage.json
-      parametersFile: parameters/storage/dev.json
+      templateFile: templates/storage.jsonc
+      parametersFile: parameters/storage/dev.jsonc
       resourceGroup: arm-lab-rg
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
