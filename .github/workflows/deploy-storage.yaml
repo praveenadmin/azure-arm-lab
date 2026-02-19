@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy-storage:
-    uses: praveenadmin/BH-Reusable-Templates/.github/workflows/reusable-deploy.yml@main
+    uses: praveenadmin/BH-Reusable-Templates/.github/workflows/reusable-deploy.yaml@main
     with:
       templateFile: templates/storage.json
       parametersFile: parameters/storage/dev.json
